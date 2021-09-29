@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     
     <script src="https://use.fontawesome.com/44cb379512.js"></script>
+
+    <script src="javascript/script.js"></script>
   </head>
   
   <!-- Website content -->
@@ -21,17 +23,33 @@
     </h1>
 
     <div class="container-fluid">
+      <button onclick="frikShow()">Frikandel</button>
+      <button onclick="krokShow()">Kroket</button>
       <div class="header">
         <h3>
-          <p>El Fuego, Domburg (Zeeland), Frikandel, 9, Goede frikandel.</p>
+          <div id="frikandel" style="display:none">
+            <p>El Fuego, Domburg (Zeeland), Frikandel, 9, Goede frikandel.</p>
+            <p>Hooge Esch, Buurse (Overijssel), Frikandel, 8, Frikandel was better dan pannekoek.</p>
+            <p>Zwagers, Hengelo (Overijssel), Frikandel, 7.5, Zeer standaard.</p>
+            <p>Cafetaria Jimmt, Rossum (Overijssel), Frikandel, 7.5, Gewoon oké.</p>
+            <p>De Werf, Veere (Zeeland), Frikandel, 7, Te sappige frikandel.</p>
+            <p>De Noork, Hengelo (Overijssel), frikandel, 7, Gewoon een beetje meh.</p>
+          </div>
+
+          <div id="kroket" style="display:none">
+            <p>Sam Sam, Enschede (Overijssel), Kroket, 8.5, Prima kroket.</p>
+            <p>Zwagers, Hengelo (Overijssel), Kroket, 8, Prima kroket.</p>
+		        <p>McDonald's, Hengelo bij Ikea (Overijssel), "Kroket", 6, Het is meer gewoon een burger.</p>
+          </div>
+            <!--<p>El Fuego, Domburg (Zeeland), Frikandel, 9, Goede frikandel.</p>
           <p>Sam Sam, Enschede (Overijssel), Kroket, 8.5, Prima kroket.</p>
           <p>Zwagers, Hengelo (Overijssel), Kroket, 8, Prima kroket.</p>
-	  <p>Hooge Esch, Buurse (Overijssel), Frikandel, 8, Frikandel was better dan pannekoek.</p>
+		      <p>Hooge Esch, Buurse (Overijssel), Frikandel, 8, Frikandel was better dan pannekoek.</p>
           <p>Zwagers, Hengelo (Overijssel), Frikandel, 7.5, Zeer standaard.</p>
-          <p>Cafetaria Jimmy, Rossum (Overijssel), Frikandel, 7.5, Gewoon oké.</p>
-	  <p>De Werf, Veere (Zeeland), Frikandel, 7, Te sappige frikandel.</p>
+          <p>Cafetaria Jimmt, Rossum (Overijssel), Frikandel, 7.5, Gewoon oké.</p>
+		      <p>De Werf, Veere (Zeeland), Frikandel, 7, Te sappige frikandel.</p>
           <p>De Noork, Hengelo (Overijssel), frikandel, 7, Gewoon een beetje meh.</p>
-	  <p>McDonald's, Hengelo bij Ikea (Overijssel), "Kroket", 6, Het is meer gewoon een burger.</p>
+		      <p>McDonald's, Hengelo bij Ikea (Overijssel), "Kroket", 6, Het is meer gewoon een burger.</p>-->
         </h3>
       </div>
     </div>

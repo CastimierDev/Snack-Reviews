@@ -1,3 +1,5 @@
-Snack reviews!
+# Personal Website Template
 
-A website for my snack reviews
+Description: A beginner-friendly personal website template with helpful comments.
+
+Fork this repository and edit away!
